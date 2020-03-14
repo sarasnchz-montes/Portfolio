@@ -83,6 +83,7 @@ h3{
     color: #E0E0E0;
     text-align: right;
     margin-top: 171px;
+    letter-spacing: 0.3px;
 }
 
 .proyectos{
@@ -98,6 +99,7 @@ h4{
     font-size: 32px;
     font-weight: bold;
     color: #444444;
+    letter-spacing: 0.3px;
 }
 
 .descripcion_proyecto{
@@ -140,6 +142,10 @@ h4{
     justify-content: space-around;
 }
 
+.txt_case{
+    font-size: 22px;
+}
+
 .link_behance{
     padding-top: 48px;
     display: flex;
@@ -160,6 +166,8 @@ p{
     font-size: 24px;
     font-weight: lighter;
     color: #444444;
+    line-height: 120%;
+    letter-spacing: 0.3px;
     width: 478px;
     margin-top: 24px;
 }
@@ -195,7 +203,7 @@ img{
 }
 
 ul{
-    list-style-image: url(../Fotos/bluerrow24px.png);
+    list-style-image: url(../Fotos/bluerrow24px.svg);
     padding-left: 32px;
 }
 
@@ -256,7 +264,7 @@ li{
     a{
         font-family: "Helvetica", Arial, sans-serif;
         font-size: 24px;
-        font-weight: normal;
+        font-weight: lighter;
         color: #89C9D1;
         text-decoration: none;
     }
@@ -347,8 +355,12 @@ li{
         font-size: 16px;
         font-weight: lighter;
         color: #444444;
-        width: 255px;
+        width: 259px;
         margin-top: 24px;
+    }
+
+    .txt_case{
+        font-size: 16px;
     }
 
     #Sobre_mi{
@@ -456,7 +468,7 @@ li{
     a{
         font-family: "Helvetica", Arial, sans-serif;
         font-size: 32px;
-        font-weight: normal;
+        font-weight: lighter;
         color: #89C9D1;
         text-decoration: none;
     }
@@ -478,6 +490,7 @@ li{
         color: #E0E0E0;
         text-align: right;
         margin-top: 171px;
+        letter-spacing: 0.3px;
     }
     
     .proyectos{
@@ -493,6 +506,7 @@ li{
         font-size: 32px;
         font-weight: bold;
         color: #444444;
+        letter-spacing: 0.3px;
     }
     
     .descripcion_proyecto{
@@ -554,6 +568,8 @@ li{
         color: #444444;
         width: 382.93px;
         margin-top: 24px;
+        line-height: 120%;
+        letter-spacing: 0.3px;
     }
     
     #Sobre_mi{
@@ -590,7 +606,7 @@ li{
         list-style-image: url(../Fotos/bluearrow24px.svg);
         padding-left: 32px;
     }
-    
+
     li{
         margin-top: 16px;
     }
