@@ -1,0 +1,616 @@
+@font-face {
+    src: url(../Fuente/Helvetica.ttc);
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+/*font-family: "Helvetica", Arial, sans-serif;*/
+
+.border{
+    overflow: hidden;
+}
+
+#primer_bloque{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 162px;
+    padding-top: 123px;
+    padding-bottom: 52px;
+    align-items: flex-start;
+}
+
+h1{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #444444;
+    text-align: left;
+    width: 676px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 162px;
+}
+
+#logotipo{
+    width: 335px;
+    height: 300px;
+    padding-right: 162px;
+}
+
+#flecha_para_bajar{
+    justify-content: flex-start;
+    width: 30px;
+    height: 30px;
+    margin-top: 154px;
+    margin-left: 162px;
+}
+
+a{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #89C9D1;
+    text-decoration: none;
+}
+
+#Portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-left: 162px;
+    padding-right: 162px;
+    align-items: baseline;
+}
+
+#q_portfolio{
+    text-align: end;
+}
+
+h3{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: #E0E0E0;
+    text-align: right;
+    margin-top: 171px;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h4{
+    font-family: "Helvetica", Arial, sans-serif;
+    width: 528px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.descripcion_proyecto{
+    padding-left: 162px;
+    padding-right: 162px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.descripcion_proyecto_reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 80px;
+    padding-left: 162px;
+    padding-right: 162px;
+}
+
+.imagen_cabecera{
+    width: 528px;
+    height: 346px;
+    object-fit: cover;
+}
+
+.contenido_proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.txt_descripcion_proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.link_behance{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bluearrow16px{
+    width: 16px;
+    height: 16px;
+    padding-right: 8px;
+}
+
+p{
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #444444;
+    width: 528px;
+    margin-top: 24px;
+}
+
+#Sobre_mi{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 162px;
+}
+
+.informacion_personal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 66px;
+    padding-right: 162px;
+    padding-left: 162px;
+}
+
+img{
+    width: 505px;
+    height: 418px;
+}
+
+.seccion_contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-top: 80px;
+    padding-bottom: 114px; 
+}
+
+ul{
+    list-style-image: url(../Fotos/bluerrow24px.png);
+    padding-left: 32px;
+}
+
+li{
+    margin-top: 16px;
+}
+
+.linkcontacto{
+    font-size: 24px;
+    padding-top: 16px;
+}
+
+.sin_interlineado{
+    margin-top: 8px;
+    font-size: 24px;
+    color: #E0E0E0;
+    text-align: right;
+}
+
+.creditos{
+    padding-top: 0px;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        padding-left: 45px;
+        padding-top: 59px;
+        padding-bottom: 32px;
+        align-items: flex-start;
+    }
+
+    #logotipo{
+        display:none !important;
+    }
+
+    h1{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: #444444;
+        text-align: left;
+        width: 230px;
+    }
+
+    .navegacion{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 45px;
+    }
+
+    #flecha_para_bajar{
+        display:none !important;
+    }
+
+    a{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: #89C9D1;
+        text-decoration: none;
+    }
+
+    #Portfolio{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    h3{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 32px;
+        font-weight: normal;
+        color: #E0E0E0;
+        text-align: left;
+        margin-top: 80px;
+    }
+
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    h4{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #444444;
+        padding-top: 24px;
+        width: 250px;
+    }
+
+    .descripcion_proyecto{
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 48px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .descripcion_proyecto_reverse{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: 48px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .imagen_cabecera{
+        width: 250px;
+        height: 172px;
+    }
+    
+    .contenido_proyecto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .txt_descripcion_proyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .link_behance{
+        display:none !important;
+    }
+    
+    .bluearrow16px{
+        width: 16px;
+        height: 16px;
+        padding-right: 8px;
+    }
+
+    p{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        color: #444444;
+        width: 245px;
+        margin-top: 24px;
+    }
+
+    #Sobre_mi{
+        padding-left: 45px;
+        padding-right: 45px;
+        justify-content: flex-start;
+    }
+
+    .informacion_personal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 33px;
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+    img{
+        width: 238.53px;
+        height: 199px;
+    }
+
+    .seccion_contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 45px;
+        padding-top: 0px;
+        padding-bottom: 48px;
+    }
+
+    ul{
+        list-style-image: url(../Fotos/bluearrow24px.svg);
+        padding-left: 32px;
+    }
+
+    .imagen_pequeña{
+        list-style-image: url(../Fotos/bluearrow16px.svg);
+    }
+
+    li{
+        margin-top: 16px;
+    }
+
+    .linkcontacto{
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+    .sin_interlineado{
+        margin-top: 8px;
+        font-size: 16px;
+        color: #E0E0E0;
+        text-align: right;
+    }
+
+    .creditos{
+        padding-top: 24px;
+        text-align: right;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+    .header{
+        display: flex;
+        flex-direction: row;
+        padding-left: 80px;
+        padding-top: 123px;
+        padding-bottom: 52px;
+        align-items: flex-start;
+    }
+    
+    h1{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 56px;
+        font-weight: bold;
+        color: #444444;
+        text-align: left;
+        width: 626px;
+    }
+    
+    .navegacion{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 80px;
+    }
+
+    #logotipo{
+        width: 253px;
+        height: 227px;
+        padding-right: 80px;
+    }
+    
+    #flecha_para_bajar{
+        justify-content: flex-start;
+        width: 30px;
+        height: 30px;
+        margin-top: 154px;
+        margin-left: 80px;
+    }
+    
+    a{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 32px;
+        font-weight: normal;
+        color: #89C9D1;
+        text-decoration: none;
+    }
+    
+    #Portfolio{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        align-items: baseline;
+    }
+    
+    h3{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 40px;
+        font-weight: normal;
+        color: #E0E0E0;
+        text-align: right;
+        margin-top: 171px;
+    }
+    
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    h4{
+        font-family: "Helvetica", Arial, sans-serif;
+        width: 406px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #444444;
+    }
+    
+    .descripcion_proyecto{
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    
+    .descripcion_proyecto_reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .imagen_cabecera{
+        width: 355px;
+        overflow: hidden;
+    }
+    
+    .contenido_proyecto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .txt_descripcion_proyecto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .link_behance{
+        padding-top: 48px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .bluearrow16px{
+        width: 16px;
+        height: 16px;
+        padding-right: 8px;
+    }
+    
+    p{
+        font-family: "Helvetica", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: #444444;
+        width: 382.93px;
+        margin-top: 24px;
+    }
+    
+    #Sobre_mi{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 80px;
+    }
+    
+    .informacion_personal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 66px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+    img{
+        width: 396.75px;
+        height: 331px;
+    }
+    
+    .seccion_contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        padding-top: 45px;
+        padding-bottom: 80px; 
+    }
+    
+    ul{
+        list-style-image: url(../Fotos/bluearrow24px.svg);
+        padding-left: 32px;
+    }
+    
+    li{
+        margin-top: 16px;
+    }
+    
+    .linkcontacto{
+        font-size: 24px;
+        padding-top: 16px;
+    }
+    
+    .sin_interlineado{
+        margin-top: 8px;
+        font-size: 24px;
+        color: #E0E0E0;
+        text-align: right;
+    }
+    
+    .creditos{
+        padding-top: 0px;
+    }
+    
+
+}
+
